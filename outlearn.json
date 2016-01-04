@@ -1,0 +1,28 @@
+{
+  "olpVersion" : "0.5",
+
+  "paths" : [
+    {
+      "name" : "collaboration",
+      "title" : "Getting Started with Collaboration",
+      "description" : "This path introduces you to GitHub and the collaboration features we will use throughout the class.",
+      "privacy" : "public",
+      "coverImage" : "https://raw.githubusercontent.com/github/training-kit/master/images/professortocat.png",
+      "coverColor" : "#1A80CD",
+      "pages" : [
+        {"module" : "COLL-00_Introducing-github"},
+        {"module" : "COLL-01_Exploring-a-repository"},
+        {"module" : "COLL-02_Using-issues"}
+      ]
+    }
+  ],
+
+  "modules" : [
+    {"olm" : "./outlearn/COLL-00_Introducing-github.md"},
+    {"olm" : "./outlearn/COLL-01_Exploring-a-repository.md"},
+    {"olm" : "./outlearn/COLL-02_Using-issues.md"}
+  ],
+
+  "assets" : [
+  ]
+}
