@@ -2,11 +2,11 @@
 {
 "name" : "Merging-pull-requests",
 "version" : "0.0.1",
-"title" : "Introducing GitHub",
-"description" : "Describe the features of GitHub and how it is used to collaborate effectively with your team.",
+"title" : "Merging Pull Requests",
+"description" : "Merge the changes made on your feature branch into your master branch.",
 "freshnessDate" : 2016-01-04,
-"homepage" : "https://training.github.com/kit/modules/COLL-00_Introducing-github.html",
-"canonicalSource" : "https://training.github.com/kit/modules/COLL-00_Introducing-github.html",
+"homepage" : "https://training.github.com/kit/modules/CONT-05_Merging-pull-requests.html",
+"canonicalSource" : "https://training.github.com/kit/modules/CONT-05_Merging-pull-requests.html",
 "license" : "CC BY 4.0 International"
 }
 -->
@@ -16,40 +16,60 @@
 
 # Presentation Slide Content
 
-_Describe the features of GitHub and how it is used to collaborate effectively with your team._
+_Merge the changes made on your feature branch into your master branch._
 
 <br>
 
-# What is GitHub?
-
-GitHub is a collaboration platform built on top of a distributed version control system called Git.
-
-![](https://training.github.com/kit/images/github-icon.jpg)
-
-<!-- @task, "text" : "Have you used a version control system before? If so, which one?", "hasDeliverable" : true -->
-
+# Merging Pull Requests
 
 <br>
 
-# Key GitHub Features
+- At this point, your pull request should be approved and you are ready to merge it in to the `master` branch.
+- When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
+- Many project teams have established rules about who should merge a pull request. Some say it should be the person who created the pull request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the pull request.
+- There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed. There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
+- Let's take a look at how you can merge the pull request and close the original issue at the same time.
 
-In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate including issues for discussing features and bugs and pull requests for discussing and reviewing new features your team is working on.
+![](https://training.github.com/kit/images/merge-logo.jpg)
 
-![](https://training.github.com/kit/images/collaboration-features.jpg)
 
 
 <br>
 
-# The GitHub Ecosystem
+# Merging Pull Requests
 
-You can also use all of your favorite tools with GitHub. Indispensable tools like continuous integration and continuous deployment help you and your team build software better, together.
-
-![](https://training.github.com/kit/images/github-ecosystem.jpg)
+<!-- @resource, "url" : "http://youtu.be/3MUmLHHxSqE" -->
 
 
-<!-- @resource, "url" : "https://github.com/integrations", "forceBasic" : true, "imageUrl" : "https://enterprise.github.com/assets/features/integrations-graphic-82c8e2f1872e9d026b249bfc1ba37e03.jpg", "title" : "Use your favorite tools with GitHub", "description" : "Powerful integrations that help you and your team build software better, together."  -->
-<!-- @task, "text" : "Check out the link above for a list of tools you can integrate with GitHub." -->
+<br>
 
+# Video Script
+
+<br>
+
+Do | Say
+---|---
+"Open the `pull request` to be merged" | "Visit your pull request now that it's ready to be merged"
+"Show the `Conversation` view" | "You can merge a pull request at the bottom of the conversation view."
+"Click `Merge pull request`" | "You simply click the Merge pull request button."
+"Show the merge confirmation window" | "Now we want to include some special text that tells GitHub that this pull request should close the original issue."
+Type `Fixes` | "Fixes is one of the special keywords that GitHub looks for in merge commits."
+"Type `#`" | "We can use the # to auto-generate the link to the issue."
+"Type a few letters from the issue name" | "Since the issue title contained your username, you can type the first few letters of your GitHub username to narrow down the list of possible issues."
+"Select the correct issue from the drop down" | "Simply select your issue from the list."
+"Click `Confirm merge`" | "And click confirm merge."
+"Show confirmation message" | "A confirmation message will let you know that your pull request was merged and closed. It also let's you know that the branch we created can be safely deleted."
+"Click `Delete branch`" | "Since we won't be using this branch anymore, you should go ahead and delete it now."
+"Click `Issues` and then filter to see the `Closed` issues" | "You can now go back to the issues tab and you will see that your issue has been closed. Congratulations, you have completed your first contribution on GitHub."
+
+
+<!-- @section -->
+
+# Lab - Merging Pull Requests
+
+Let's finish the workflow by merging our changes into master.
+
+<!-- @task, "text" : "Merge the pull request you created, closing your original issue with the merge commit." -->
 
 <!-- @section -->
 
@@ -57,12 +77,6 @@ You can also use all of your favorite tools with GitHub. Indispensable tools lik
 
 <br>
 
-# Overview of Git
+# Special Keywords for Closing Issues
 
-<!-- @resource, "url" : "https://youtu.be/FyfwLX4HAxM" -->
-
-<br>
-
-# Overview of GitHub
-
-<!-- @resource, "url" : "https://youtu.be/vDv5K5PbvO8" -->
+<!-- @resource, "url" : "https://help.github.com/articles/closing-issues-via-commit-messages/", "forceBasic" : true  -->

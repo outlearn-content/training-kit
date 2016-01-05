@@ -2,11 +2,11 @@
 {
 "name" : "Creating-pull-requests",
 "version" : "0.0.1",
-"title" : "Introducing GitHub",
-"description" : "Describe the features of GitHub and how it is used to collaborate effectively with your team.",
+"title" : "Creating Pull Requests",
+"description" : "Creating a pull request.",
 "freshnessDate" : 2016-01-04,
-"homepage" : "https://training.github.com/kit/modules/COLL-00_Introducing-github.html",
-"canonicalSource" : "https://training.github.com/kit/modules/COLL-00_Introducing-github.html",
+"homepage" : "https://training.github.com/kit/modules/CONT-035_Creating-pull-requests.html",
+"canonicalSource" : "https://training.github.com/kit/modules/CONT-035_Creating-pull-requests.html",
 "license" : "CC BY 4.0 International"
 }
 -->
@@ -16,40 +16,57 @@
 
 # Presentation Slide Content
 
-_Describe the features of GitHub and how it is used to collaborate effectively with your team._
+_Creating a pull request._
 
 <br>
 
-# What is GitHub?
-
-GitHub is a collaboration platform built on top of a distributed version control system called Git.
-
-![](https://training.github.com/kit/images/github-icon.jpg)
-
-<!-- @task, "text" : "Have you used a version control system before? If so, which one?", "hasDeliverable" : true -->
-
+# Understanding Pull Requests
 
 <br>
 
-# Key GitHub Features
+Pull Requests are used to propose changes to the project files. A pull request introduces an action that addresses an Issue. A Pull Request is considered a "work in progress" until it is merged into the project. Now that you have created a file, you will open a pull request to discuss the file with your team mates.
 
-In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate including issues for discussing features and bugs and pull requests for discussing and reviewing new features your team is working on.
+![](https://training.github.com/kit/images/pull-request-icon.jpg)
 
-![](https://training.github.com/kit/images/collaboration-features.jpg)
+<br>
+
+# Creating a Pull Request on GitHub
+
+<!-- @resource, "url" : "http://youtu.be/kJr-PIfLDl4" -->
 
 
 <br>
 
-# The GitHub Ecosystem
+# Video Script
 
-You can also use all of your favorite tools with GitHub. Indispensable tools like continuous integration and continuous deployment help you and your team build software better, together.
+<br>
 
-![](https://training.github.com/kit/images/github-ecosystem.jpg)
+Do | Say
+---|---
+Show `Your recently pushed branches:` banner | "GitHub knows that you have added changes to your branch and helpfully recommends that you start a pull request."
+"Click `Compare & Pull Request`" | "Go ahead and click the big green button to start your pull request."
+"Show `base:` and `compare:` drop downs" | "Notice that we can use the drop down here to compare any two branches. We will leave the defaults selected."
+"Show default pull request message" | "GitHub pre-populates the commit message as the pull request title. You can change this to help your collaborators better understand the intent of the change."
+"Leave a comment" | "Here you can leave a comment to describe the changes you made and why. As a best practice, you should reference the original issue or issues using the # notation."
+"Click `Create pull request`" | "When you are finished, choose the option to create a pull request."
+"Show the `Conversation` view" | "Similar to the discussion thread on an Issue, a Pull Request creates a discussion about the changes being made to the repository. This discussion is found in the Conversation tab."
+"Show the `Commits` view" | "The commits view contains information about who has made changes to the files. Each commit is an updated view of the repository, allowing us to see how changes have happened from commit to commit."
+"Show the `Files changed` view" | "The Files changed view allows you to see the change that is being proposed. We call this the `diff`. Notice that some of the text is highlighted in red. This is what has been removed. The green text is what has been added."
+"Enter a `line comment` in the Files changed view" | "If you notice something that needs to be changed, you can click on the line number in this view to create a line comment. Line level comments are a great way to give additional context on recommended changes."
+"Return to the `Conversation` view" | "Notice that the line comment was added to the main conversation."
+"Add a comment to the discussion" | "If your comment is more general in nature, you can also add a comment to the Pull Request using the same method we learned for Issues."
+"Add a `:+1:` emoji" | "Most project teams require someone to sign off on the change before it is merged. We like to use emoji to show our approval. In the previous lab you created a file, next you will create a pull request for your file."
 
 
-<!-- @resource, "url" : "https://github.com/integrations", "forceBasic" : true, "imageUrl" : "https://enterprise.github.com/assets/features/integrations-graphic-82c8e2f1872e9d026b249bfc1ba37e03.jpg", "title" : "Use your favorite tools with GitHub", "description" : "Powerful integrations that help you and your team build software better, together."  -->
-<!-- @task, "text" : "Check out the link above for a list of tools you can integrate with GitHub." -->
+<!-- @section -->
 
+# Lab - Creating a Pull Request
+
+Now that you have added a new file, let's create a pull request.
+
+<!-- @task, "text" : "Create a Pull Request, @mentioning the instructor. Assign the Pull Request to yourself." -->
+
+<!-- @task, "text" : "Add a line comment to someone else's pull request in the class repository." -->
 
 <!-- @section -->
 
@@ -57,12 +74,6 @@ You can also use all of your favorite tools with GitHub. Indispensable tools lik
 
 <br>
 
-# Overview of Git
+# Using Pull Requests
 
-<!-- @resource, "url" : "https://youtu.be/FyfwLX4HAxM" -->
-
-<br>
-
-# Overview of GitHub
-
-<!-- @resource, "url" : "https://youtu.be/vDv5K5PbvO8" -->
+<!-- @resource, "url" : "https://help.github.com/articles/using-pull-requests/", "forceBasic" : true  -->

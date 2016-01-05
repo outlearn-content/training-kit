@@ -22,6 +22,8 @@ _Create a branch to separate feature work from the master branch._
 
 # Using Branches
 
+<br>
+
 - Every day you will be editing files on your project or adding new files.
 - You don't want to take risks with the code on your master branch so you need to create a branch.
 - When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch.
@@ -30,7 +32,6 @@ _Create a branch to separate feature work from the master branch._
 
 ![](https://training.github.com/kit/images/branch-icon.jpg)
 
-<!-- @task, "text" : "Have you used a version control system before? If so, which one?", "hasDeliverable" : true -->
 
 
 <br>
@@ -72,4 +73,4 @@ Let's practice creating a branch.
 
 # YouTube Video - Branch
 
-<!-- @resource, "url" : "https://youtu.be/H5GJfcp3p4Q?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-", "forceBasic" : true  -->
+<!-- @resource, "url" : "https://youtu.be/H5GJfcp3p4Q?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-" -->
