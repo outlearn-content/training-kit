@@ -22,7 +22,7 @@
       "title" : "Creating Your First Pull Request",
       "description" : "In this path you will learn about the GitHub flow and create your first pull request.",
       "privacy" : "public",
-      "coverImage" : "https://raw.githubusercontent.com/github/training-kit/master/images/professortocat.png",
+      "coverImage" : "https://training.github.com/kit/images/pull-request-icon.jpg",
       "coverColor" : "#1A80CD",
       "pages" : [
         {"page" : "./outlearn/welcome-pull-requests.md"},
