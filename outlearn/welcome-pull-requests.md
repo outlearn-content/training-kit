@@ -1,12 +1,10 @@
-# Education from the experts
+# Continue Learning GitHub
 
-We love helping people just like you use GitHub and Git to collaborate and be more productive. No matter your level of experience, we’ve got something just for you.
+This path continues to teach you how to get most out of GitHub by introducing you to pull requests. If you haven't already, we recommend you first go through the path [Getting Started with Collaboration](https://www.outlearn.com/learn/github-training/collaboration).
 
 We've open sourced all of our class outlines, slides, and cheat sheets so you can easily leverage these high-quality educational materials.
 
-This learning path introduces you to GitHub and the collaboration features we will use throughout all the GitHub paths.
-
-Great to have you with us!  
+Let's continue to learn!  
 Cynthia
 
 <img src="https://avatars3.githubusercontent.com/u/9950121?v=3&s=460" width="250px" height="250px">
