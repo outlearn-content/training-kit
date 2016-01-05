@@ -1,6 +1,6 @@
 <!--
 {
-"name" : "COLL-00_Introducing-github",
+"name" : "Introducing-github",
 "version" : "0.0.1",
 "title" : "Introducing GitHub",
 "description" : "Describe the features of GitHub and how it is used to collaborate effectively with your team.",

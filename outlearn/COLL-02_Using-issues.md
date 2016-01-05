@@ -1,6 +1,6 @@
 <!--
 {
-"name" : "COLL-02_Using-issues",
+"name" : "Using-issues",
 "version" : "0.0.1",
 "title" : "Using Issues",
 "description" : "Collaborate using GitHub Issues to discuss ideas, enhancements, tasks and bugs.",

@@ -1,6 +1,6 @@
 <!--
 {
-"name" : "COLL-01_Exploring-a-repository",
+"name" : "Exploring-a-repository",
 "version" : "0.0.1",
 "title" : "Exploring a Repository",
 "description" : "Locate the key features of a GitHub repository.",

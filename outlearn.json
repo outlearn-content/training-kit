@@ -11,9 +11,9 @@
       "coverColor" : "#1A80CD",
       "pages" : [
         {"page" : "./outlearn/welcome.md"},
-        {"module" : "COLL-00_Introducing-github"},
-        {"module" : "COLL-01_Exploring-a-repository"},
-        {"module" : "COLL-02_Using-issues"},
+        {"module" : "Introducing-github"},
+        {"module" : "Exploring-a-repository"},
+        {"module" : "Using-issues"},
         {"page" : "./outlearn/next-steps.md"}
       ]
     }
