@@ -1,6 +1,6 @@
 # Education from the experts
 
-We hope you have enjoyed this path. The next thing you might want to check out is the path about [creating pull requests](https://training.github.com/kit/modules/CONT-01_Understanding-github-flow.html).
+We love helping people just like you use GitHub and Git to collaborate and be more productive. No matter your level of experience, we’ve got something just for you.
 
 We've open sourced all of our class outlines, slides, and cheat sheets so you can easily leverage these high-quality educational materials.
 

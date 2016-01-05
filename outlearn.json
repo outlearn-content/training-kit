@@ -5,16 +5,34 @@
     {
       "name" : "collaboration",
       "title" : "Getting Started with Collaboration",
-      "description" : "This path introduces you to GitHub and the collaboration features we will use throughout the class.",
+      "description" : "This path introduces you to GitHub and the collaboration features used throughout our training materials.",
       "privacy" : "public",
       "coverImage" : "https://raw.githubusercontent.com/github/training-kit/master/images/professortocat.png",
       "coverColor" : "#1A80CD",
       "pages" : [
-        {"page" : "./outlearn/welcome.md"},
+        {"page" : "./outlearn/welcome-collaboration.md"},
         {"module" : "Introducing-github"},
         {"module" : "Exploring-a-repository"},
         {"module" : "Using-issues"},
-        {"page" : "./outlearn/next-steps.md"}
+        {"page" : "./outlearn/next-steps-collaboration.md"}
+      ]
+    },
+    {
+      "name" : "pull-requests",
+      "title" : "Creating Your First Pull Request",
+      "description" : "In this path you will learn about the GitHub flow and create your first pull request.",
+      "privacy" : "public",
+      "coverImage" : "https://raw.githubusercontent.com/github/training-kit/master/images/professortocat.png",
+      "coverColor" : "#1A80CD",
+      "pages" : [
+        {"page" : "./outlearn/welcome-pull-requests.md"},
+        {"module" : "Understanding-github-flow"},
+        {"module" : "Using-branches"},
+        {"module" : "Creating-files-platform"},
+        {"module" : "Creating-pull-requests"},
+        {"module" : "Editing-pull-request-files"},
+        {"module" : "Merging-pull-requests"},
+        {"page" : "./outlearn/next-steps-pull-requests.md"}
       ]
     }
   ],
@@ -22,7 +40,13 @@
   "modules" : [
     {"olm" : "./outlearn/COLL-00_Introducing-github.md"},
     {"olm" : "./outlearn/COLL-01_Exploring-a-repository.md"},
-    {"olm" : "./outlearn/COLL-02_Using-issues.md"}
+    {"olm" : "./outlearn/COLL-02_Using-issues.md"},
+    {"olm" : "./outlearn/CONT-01_Understanding-github-flow.md"},
+    {"olm" : "./outlearn/CONT-02_Using-branches.md"},
+    {"olm" : "./outlearn/CONT-030_Creating-files-platform.md"},
+    {"olm" : "./outlearn/CONT-035_Creating-pull-requests.md"},
+    {"olm" : "./outlearn/CONT-04_Editing-pull-request-files.md"},
+    {"olm" : "./outlearn/CONT-05_Merging-pull-requests.md"}
   ],
 
   "assets" : [
