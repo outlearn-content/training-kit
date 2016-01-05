@@ -38,9 +38,9 @@
   ],
 
   "modules" : [
-    {"olm" : "./outlearn/COLL-00_Introducing-github.md"},
-    {"olm" : "./outlearn/COLL-01_Exploring-a-repository.md"},
-    {"olm" : "./outlearn/COLL-02_Using-issues.md"},
+    {"olm" : "./outlearn/Introducing-github.md"},
+    {"olm" : "./outlearn/Exploring-a-repository.md"},
+    {"olm" : "./outlearn/Using-issues.md"},
     {"olm" : "./outlearn/CONT-01_Understanding-github-flow.md"},
     {"olm" : "./outlearn/CONT-02_Using-branches.md"},
     {"olm" : "./outlearn/CONT-030_Creating-files-platform.md"},
